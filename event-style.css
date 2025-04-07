@@ -1,0 +1,47 @@
+/* event-style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #eaeaea);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.back-btn {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7e5f;
+  color: white;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #eb6a4f;
+}

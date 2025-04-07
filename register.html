@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="validate.js" defer></script>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Register for an Event</h2>
+    <form action="register.php" method="POST" onsubmit="return validateForm()">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="text" name="contact" placeholder="Contact Number" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <select name="event" required>
+        <option value="">Select Event</option>
+        <option value="Sports">Sports</option>
+        <option value="Dance">Dance</option>
+        <option value="Poetry">Poetry</option>
+        <option value="Art">Art</option>
+        <option value="Painting">Painting</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already registered? <a href="login.html">Login</a></p>
+  </div>
+</body>
+</html>
